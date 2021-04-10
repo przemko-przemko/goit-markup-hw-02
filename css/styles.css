@@ -1,0 +1,94 @@
+*{
+--black: #212121;
+--blue: #2196F3;
+--white: #ffffff;
+}
+
+body{
+    font-family:'Roboto',
+    sans-serif;
+    color: var(--black);
+}
+body input,
+a{
+    cursor:pointer;
+    color: var(--black);
+    
+}
+}
+body .title{
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 2;
+   
+}
+body .info,
+.container-photo ul p{
+    font-size: 16px;;
+
+}
+ body a:hover,
+ :focus,
+ :active {
+    color: var(--blue)
+
+}
+.button:hover,
+:focus,
+:active,
+.button-mainsite:hover,
+:focus,
+:active
+{
+    color: var(--white);
+    background-color:var(--blue);
+}
+.logo-site{
+    font-family: 'Raleway',
+    sans-serif;
+    ;
+    font-weight: 700;
+
+}
+.main-text{
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 44px;
+    line-height: 1,36;
+}
+.title-h3{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.title-h2{
+    font-weight: 700;
+    font-size: 36px;
+
+}
+.container-photo ul h3{
+    font-weight: 500;
+    font-size: 16px;
+}
+.button-mainsite{
+font-size: 16px;
+font-weight: 700;
+}
+.button{
+    font-size: 16px;
+    font-weight: 500;
+}
+.main-article,
+address {
+    line-height: 1.714;
+
+}
+.info{
+    line-height: 1.875;
+}
+footer{
+    line-height: 2;
+}
+.logo-site{
+    line-height: 0.085;
+}
